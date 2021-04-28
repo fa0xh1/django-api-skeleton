@@ -31,13 +31,11 @@ Sebelum menginstall django sebaiknya terlebih dahulu kita menginstall virtualenv
 Setelah itu ikuti langkah berikut:
 
 1. Jalankan `git clone https://github.com/0xft1h/django-api-skeleton.git`
-
 2. dan setelah itu `cd django-api-skeleton && pip -r requirements.txt`
-
-3. Kemudian jalankan `./manage.py migrate atau python manage.py migrate`
-4. Setelah itu kita jalankan aplikasinya `./manage.py runserver atau python manage.py runserver`
-
-5. Happy hacking!
+3. jalankan `./manage.py makemigrations atau python manage.py makemigrations`
+4. Kemudian jalankan `./manage.py migrate atau python manage.py migrate`
+5. Setelah itu kita jalankan aplikasinya `./manage.py runserver atau python manage.py runserver`
+6. Happy hacking!
 
 ## Features
 
